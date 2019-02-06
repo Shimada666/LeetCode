@@ -10,4 +10,4 @@ class Solution:
         return way[n]
 
 a=Solution()
-print(a.climbStairs(5))
+print(a.climbStairs(15))
