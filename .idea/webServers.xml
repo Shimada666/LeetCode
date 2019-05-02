@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="774b1f63-003d-4c32-b25a-529eec64b59a" name="tw">
+        <fileTransfer host="corgiclub.tk" port="22" privateKey="C:\Users\Administrator\Desktop\ssh\id_rsa_2048" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
