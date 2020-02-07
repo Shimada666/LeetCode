@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-讷讷不语
+# -*- coding: utf-8 -*-
 """
     :author: Shimada666
     :url: https://github.com/shimada666
