@@ -13,6 +13,6 @@ class Solution:
         """
         if not root:
             return 0
-        l=self.maxDepth(root.left)+1
-        r=self.maxDepth(root.right)+1
-        return max(l,r)
+        l = self.maxDepth(root.left) + 1
+        r = self.maxDepth(root.right) + 1
+        return max(l, r)
