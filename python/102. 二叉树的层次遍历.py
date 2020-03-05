@@ -15,7 +15,7 @@
 #         self.right = None
 
 class Solution:
-    def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
+    def levelOrder(self, root: TreeNode) -> List[List[int]]:
         WHITE, GRAY = 0, 1
         stack = []
         init_level = 0
@@ -32,4 +32,4 @@ class Solution:
                     if len(result) == level:
                         result.append([])
                     result[level].append(node.val)
-        return result[::-1]
+        return result
