@@ -21,6 +21,7 @@ class Solution:
                 lookup.remove(s[left])
                 left += 1
                 cur_len -= 1
-            if cur_len > max_len: max_len = cur_len
+            if cur_len > max_len:
+                max_len = cur_len
             lookup.add(s[i])
         return max_len
